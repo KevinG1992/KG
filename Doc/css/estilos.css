@@ -1,0 +1,213 @@
+
+fieldset{
+	border-radius:10px;
+}
+
+input{
+	border-radius:10px;
+	padding:10px;
+	float:right;
+	margin-top:20px;
+	margin-right:20px;
+}
+a{
+	text-decoration:none;
+}
+
+
+
+.galeria{
+		width:65%;
+		padding-bottom:30px;
+		padding-top:30px;
+		}
+		
+.contenedor{
+	width:100%;
+	margin:auto;
+	border-radius:20px;
+	width:95%;
+	}
+
+
+
+.logo{
+	float:right;
+	margin-right:30px;
+	margin-top:50px;
+	
+}
+
+
+
+.PaginaPrincipal{
+	margin:auto;
+	text-align:center;
+	background:black;
+	color:white;
+}
+
+
+
+.grupo{
+	background:white;
+    border-radius: 20px;
+}
+
+
+	
+.perfil{
+	box-sizing:border-box;
+	border-radius:20px;
+	margin-top:230px;
+	width:20%;
+	position:absolute;
+	left:250px;
+}
+
+
+
+.barrasuperior img{
+	width:100%;
+	border-radius:10px;	
+}
+
+
+.BarraSuperior{
+	
+	margin:auto;
+	overflow:hidden;
+	margin-left:1px;
+	width:40%;
+	border-radius: 10px;
+}
+
+.BarraSuperior ul{
+	display:flex;
+	padding:0;
+	width:400%;
+	animation: cambio 15s infinite alternate linear;
+	list-style:none;
+}
+
+.BarraSuperior li{
+	width:100%;
+	
+}
+
+.BarraSuperior img{
+	border-radius:10px;
+	width:100%;
+	
+	}
+
+@keyframes cambio{
+	0%{margin-left:0;  }
+	0%{margin-left:0;  }
+	20% {margin-left:0;  }
+	
+	25% {margin-left: -100%;  }
+	45% {margin-left: -100%;  }
+	
+	50% {margin-left: -200%;  }
+	70% {margin-left: -200%;  }
+	
+	75% {margin-left: -300%;  }
+	100% {margin-left: -300%;  }
+}
+
+
+
+.articulos{
+		display:flex;
+		width:100%;
+		box-sizing:border-box;
+}
+
+.articulos article{
+	color:black;
+	width:60%;
+	padding-left:100px;
+	margin-top:70px;
+	text-align:left;
+}
+
+	
+.columna{
+	border-radius:10px;
+	max-width:290px;	
+	margin:30px;
+	background-image: url("img/columna.jpg");
+	box-sizing:border-box;
+	text-align:center;
+}
+
+.columna p{
+padding-left:40px;
+}
+
+.Verso p{
+	font-size:20px;
+	color:red;
+}
+
+.FinalVerso{
+	margin-bottom:90px;
+	padding-top:15px;
+	font-size:20px;
+}
+
+
+
+
+.Promo{
+	width:80%;
+	color:black;
+	margin-left:115px;
+	box-sizing:border-box;
+	margin-top:50px;
+}
+
+.Promo p {
+	text-align:center;
+	color:black;
+	font-size:17px;
+}
+
+
+
+.LinkRedes{
+text-align:left;
+margin-left:20px;
+margin-bottom:30px;
+margin-top:50px;
+}
+
+.LinkRedes .lightbox img {
+    width: 5%;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+	margin-right:20px;
+	min-width:40px;
+}
+
+.LinkRedes .lightbox img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 50px rgba(0,0,0,0.3);
+}
+
+.LinkRedes img {
+    border-radius: 70px;	
+}
+
+
+
+.final{
+	background-image: url("img/final.jpeg");
+	color:white;
+	padding-top:20px;
+	font-size:15px;
+	border-radius: 10px;
+}
+		
+
